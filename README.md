@@ -1,10 +1,10 @@
-# Custom STM32f103 Board For Low Range, Low Voltage Applications 
+# Custom STM32F103 Board For Low Range, Low Voltage Applications 
 
 ![Custom STM32f103 Board](PCB_3D_IMG.PNG)
 
 ## Project Description
 
-This project involves the design and development of a customized STM32f103 board, complete with an MCU, crystal oscillator (Xtal), Micro USB interface, serial wire debug, and strapping pins. The board is designed to meet specific application requirements and can serve as a foundation for various embedded systems projects.
+This project involves the design and development of a customized STM32F103 board, complete with an MCU, crystal oscillator (Xtal), Micro USB interface, serial wire debug, and strapping pins. The board is designed to meet specific application requirements and can serve as a foundation for various embedded systems projects. Moreover, it's designed to encourage innovation and objects that are smarter and more aware
 
 ## Table of Contents
 
@@ -28,13 +28,12 @@ This project involves the design and development of a customized STM32f103 board
 
 ## Requirements
 
-- [List any hardware or software requirements here.]
+You can download STM32CubeIDE for configuration as well as implementation of code / ideas. 
+
 
 ## Installation
 
-[Provide installation instructions here if applicable.]
-
-## Usage
+STM32CubeIDE integrates STM32 configuration and project creation functionalities from STM32CubeMX to offer all-in-one tool experience and save installation and development time. After the selection of an empty STM32 MCU or MPU, or preconfigured microcontroller or microprocessor from the selection of a board or the selection of an example, the project is created and initialization code generated. At any time during the development, the user can return to the initialization and configuration of the peripherals or middleware and regenerate the initialization code with no impact on the user code.
 
 ## Usage
 
@@ -61,21 +60,16 @@ Feel free to explore the STM32f103's capabilities, experiment with different con
 
 ## Contributing
 
-[Explain how others can contribute to this project, including guidelines for submitting pull requests or reporting issues.]
-
+Contributions for this dev design is welcome where new idea's are encourged. 
 ## Troubleshooting
 
-[Include information on common issues users might encounter and how to resolve them.]
 
 ## License
-
-[Specify the license under which your project is distributed. You can use a tool like [Choose a License](https://choosealicense.com/) to help you choose a suitable license.]
+N/A
 
 ## Contact Information
-
-[Provide your contact information or ways for users to reach out for support or questions.]
+eemahdis@gmail.com
 
 ## Acknowledgments
 
-[If you want to acknowledge individuals, organizations, or tools/libraries that have contributed to your project, you can list them here.]
-
+AA.
