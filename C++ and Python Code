@@ -1,0 +1,45 @@
+C++ Code (Using STM32CubeIDE):
+Assuming you have STM32CubeIDE installed, you can create a new project for your STM32F103 board. Here's a simple example using C++ and the STM32Cube HAL (Hardware Abstraction Layer):
+
+// main.cpp
+#include "stm32f1xx_hal.h"
+
+int main(void) {
+    HAL_Init();
+    SystemClock_Config();
+    MX_GPIO_Init();
+
+    while (1) {
+        // Your application logic goes here
+        // Example: Toggle an LED on and off
+        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+        HAL_Delay(1000);  // 1-second delay
+    }
+}
+
+// Add other necessary initialization functions here
+
+Python Code (Using MicroPython):
+Assuming you have MicroPython firmware for your STM32F103 board, you can write Python code. Here's a simple example:
+
+# main.py
+import machine
+import time
+
+led = machine.Pin(13, machine.Pin.OUT)
+
+while True:
+    # Your application logic goes here
+    # Example: Toggle an LED on and off
+    led.value(not led.value())
+    time.sleep(1)  # 1-second delay
+
+
+Notes to be taking care of:
+
+Make sure to adjust pin configurations and other settings based on your hardware design.
+For C++ code, you may need to include the necessary header files and set up the initialization functions.
+For Python code, make sure to have MicroPython flashed onto your board.
+Both examples assume a simple LED toggle for demonstration purposes. Adjust the code based on your specific requirements and peripherals.
+Remember to refer to the STM32F1 reference manual, datasheet, and documentation for detailed information about the peripherals and configurations for your specific STM32F103 variant.
+
