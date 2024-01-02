@@ -4,7 +4,7 @@
 
 ## Project Description
 
-This project involves the design and development of a customized STM32F103 board, complete with an MCU, crystal oscillator (Xtal), Micro USB interface, serial wire debug, and strapping pins. The board is designed to meet specific application requirements and can serve as a foundation for various embedded systems projects. Moreover, it's designed to encourage innovation and objects that are smarter and more aware
+This project Designed by Altium Designer Software, it involves the design and development of a customized STM32F103 board "Blue Pill" used on the Blue Pill HUB Card.It is suitable for embedded systems. It is a complete board with an MCU STM32F103C8T6, crystal oscillator (Xtal), Micro USB interface, serial wire debug, and strapping pins. The board is designed to meet specific application requirements and can serve as a foundation for various embedded systems projects. Moreover, it's designed to encourage innovation and objects that are smarter and more aware.
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ This project involves the design and development of a customized STM32F103 board
 
 ## Requirements
 
-You can download STM32CubeIDE for configuration as well as implementation of code / ideas. 
+Blue Pill HUB Board , You can download STM32CubeIDE for configuration as well as implementation of code / ideas. 
 
 
 ## Installation
