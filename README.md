@@ -62,6 +62,40 @@ Feel free to explore the STM32f103's capabilities, experiment with different con
 
 Contributions for this dev design is welcome where new idea's are encourged. 
 ## Troubleshooting
+To generate a testing code for your STM32 Blue Pill PCB board, you can use the STM32CubeIDE, which is an integrated development environment for STM32 microcontrollers. It provides a graphical way to configure the microcontroller and generate the initialization code. Here are the steps:
+
+Download and Install STM32CubeIDE:
+
+Download STM32CubeIDE from the official STMicroelectronics website.
+Install STM32CubeIDE on your computer.
+Create a New STM32 Project:
+
+Open STM32CubeIDE.
+Click on "File" > "New" > "STM32 Project."
+Select your target STM32 microcontroller (for Blue Pill, it's likely an STM32F1 series).
+Choose a project name and location.
+Click "Finish."
+Configure Project Settings:
+
+In the "Pinout & Configuration" tab, configure your GPIO pins for testing. For example, if you want to toggle an LED on the Blue Pill, configure a GPIO pin as an output.
+Generate Code:
+
+Click on the "Project" menu and select "Generate Code."
+Write Testing Code:
+
+Open the generated code in the Src folder.
+
+Find the main.c file.
+
+Write your testing code inside the while (1) loop. For example, if you want to toggle an LED, you can use something like this:
+
+/* USER CODE BEGIN WHILE */
+while (1)
+{
+  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5); // Toggle LED on GPIOA Pin 5
+  HAL_Delay(1000); // Delay for 1 second
+}
+/* USER CODE END WHILE */
 
 
 ## License
